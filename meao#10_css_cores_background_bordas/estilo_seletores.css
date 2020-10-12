@@ -1,0 +1,22 @@
+body{
+    background-color: lavender;
+}
+
+#para1{
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.fundo{
+    background-color: blueviolet;
+    color: white;
+}
+
+li{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+ul{
+    background-image: url("mountain.jpg");
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Usando tabelas</title>
+		<style>
+			table{
+				width: 100%;
+				text-align: center;
+			}
+
+			table, th, td{
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+
+			th{
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+
+			caption{
+				color: red;
+				font-weight: bold;
+			}
+
+			thead{
+				background-color: peru;
+			}
+
+			tfoot{
+				background-color: antiquewhite;
+				font-weight: bold;
+			}
+
+			tbody{
+				font-weight: bold;
+				background-color: gainsboro;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<table>
+			<caption>Capítulo</caption>
+			<thead>
+				<tr>
+					<th colspan="3">linha 1, colunas 1, 2 e 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>linha 2, coluna 1</td>
+					<td rowspan="3">linha 2, 3 e 4, coluna 2</td>
+					<td>linha 2, coluna 3</td>
+				</tr>
+				<tr>
+					<td>linha 3, coluna 1</td>
+					<td>linha 3, coluna 3</td>
+				</tr>
+				<tr>
+					<td>linha 4, coluna 1</td>
+					<td>linha 4, coluna 3</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">linha 5, colunas 1, 2 e 3</td>
+				</tr>	
+			</tfoot>
+		</table>
+		
+		
+	</body>
+</html>
