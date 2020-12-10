@@ -1,0 +1,44 @@
+form {
+    border: 1px solid #ccc;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 400px;
+    min-height: 100px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #1668c4;
+}
+
+input[type="submit"] {
+    margin-bottom: 0px;
+    background: #1668c4;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #4a88f4;
+    cursor: pointer;
+}

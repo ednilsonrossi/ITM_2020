@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form name="formulario" action="executar.php" id="form">
+
+            <label>Nome: </label>
+            <input type="text" name="nome" id="txt1" placeholder="Digite um nome" maxlength="10" size="30">
+            
+            <br><br>
+            <label>Sexo: </label><br>
+
+            <input type="radio" id="masculino" name="sexo" value="M">
+            <label for="masculino">Masculino</label><br>
+
+            
+            <input type="radio" id="feminino" name="sexo" value="F">
+            <label for="feminino">Feminino</label><br>
+
+            <input type="radio" id="outro" name="sexo" value="O" checked required>
+            <label for="outro">Outro</label><br>
+
+            <br>
+            <input type="submit" value="Salvar">
+        </form>
+    </section>
+</body>
+</html>
