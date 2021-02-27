@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Trabalhando com Divs</title>
+		<link rel="stylesheet" type="text/css" href="pagina4.css" />
+	</head>
+	<body>
+		
+		<header>
+			<h1>Introdução a Multimídia - ITM</h1>
+			<h2>Prof. Ednilson Geraldo Rossi</h2>
+			<a href="mailto:ednilsonrossi@ifsp.edu.br">ednilsonrossi@ifsp.edu.br</a>		
+		</header>
+		<section class="meio">
+		
+			<article>
+				<h1>position</h1>
+				<ul>
+					<li>Com a finalidade de desenvolvermos leiautes mais complexos, precisamos discutir sobre a propriedade 
+					<b>position</b>. Esta propriedade possui diversos valores possíveis e seus nomes não fazem sentido.</li>
+				</ul>		
+				
+				<h2>static</h2>
+				
+				<div class="prompt">
+					<span class="inicio">Style Sheet: </span>
+					<br />
+					<code>
+						<pre>	.static {
+  		position: static;
+	}
+						</pre>
+					</code>
+					<span class="final">End.</span>
+				</div>
+				<div class="exemploStatic">
+					<span class="exemploInicio">&lt;div class="exemploStatic"&gt;</span>
+					<p>o valor static é o valor padrão de todos os elementos HTML. Um elemento com position: static; não se posiciona 
+					de maneira especial, seria o mesmo que dizer que o elemento não tem posição definida ou então que um elemento com 
+					o atributo position definido seria posicionado. </p>
+				</div>
+				
+				<h2>relative</h2>
+				<div class="prompt">
+					<span class="inicio">Style Sheet: </span>
+					<br />
+					<code>
+						<pre>	.relative1 {
+  	   position: relative;
+	}
+	.relative2 {
+ 	   position: relative;
+	   top: -20px;
+	   left: 20px;
+	   background-color: white;
+	   width: 500px;
+	}
+						</pre>
+					</code>
+					<span class="final">End.</span>
+				</div>
+				<div class="exemploRelative1">
+					<span class="exemploInicio">&lt;div class="ExemploRelative1"&gt;</span>
+					<p> relative se comporta igualmente ao static, a menos que se adicione propriedades extras no estilo do elemento.  </p>
+				</div>
+				<div class="exemploRelative2">
+					<span class="exemploInicioRelative2">&lt;div class="ExemploRelative1"&gt;</span>
+					<p>Definindo as propriedades top, right, bottom, e left em um elemento position:relative o ajustamos em relação à posição atual dele. Outros conteúdos não vão se ajustar para se encaixarem em qualquer espaço deixado por esse elemento.</p>
+				</div>
+				
+				<h2>fixed</h2>	
+				<p> Um elemento fixo - fixed - é posicionado relativamente ao "viewport", isso significa que ele sempre ficará no mesmo lugar 
+				mesmo que haja rolagem na página. Assim como o relative, as propriedades top, right, bottom e left também são utilizadas.</p>
+				<p>Observe o comportamento do logo (não oficial) do IF no canto da tela.</p>	
+				<p>Um elemento fixo não deixa espaço vazio onde ele seria inserindo normalmente no documento.</p>				
+				
+				<div class="prompt">
+					<span class="inicio">Style Sheet: </span>
+					<br />
+					<code>
+						<pre>	.fixed{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 108px;
+		height: 108px;
+		border: 2px solid #11BD11;
+		border-radius: 10px;
+		text-align: center;
+		vertical-align: middle;
+		background-color: #11BD11;
+		padding: 2px;
+	}
+						</pre>
+					</code>
+					<span class="final">End.</span>
+				</div>			
+				<div class="exemploFixed">
+					<img src="logo.png" alt="Logo não oficial do IF.">				
+				</div>
+				
+				<h2>absolute</h2>
+				<p> O valor absolute é o mais complicado. Este valor se comporta como o fixed, porém tendo como referência a posição do elemento 
+				relativo mais próximo de onde está contido, ao invés do viewport. Se um elemento position:absolute não possuir elementos ancestrais 
+				posicionados relativamente, ele utilizará o body como referência.</p>
+
+				<div class="exemploRelative1 alturaDoRelative">
+					<p>Este elemento está com position:relative. Se este elemento tivesse com position: static;, seu elemento filho escaparia e 
+					se posicionaria em relação ao elemento body do documento</p>
+									
+					<div class="exemploAbsolute">
+						Este elemento é position:absolute. E é posicionado em relação ao seu elemento pai.
+					</div>
+				</div>
+			
+				<p></p>	
+			</article>
+		</section>
+		<nav>
+			<ul>
+				<li><a href="pagina3.html"><<< Anterior</a></li>
+				<li><a href="pagina1.html"> Início </a></li>
+				<li><a href="pagina5.html">Próximo >>></a></li>			
+			</ul>	
+		</nav>
+	</body>
+</html>

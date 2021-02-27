@@ -1,0 +1,231 @@
+body{
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: #E2F2A0;			
+}		
+
+header, article, nav{
+	margin-top: 15px;
+	padding: 0;
+	border: solid 3px #0B910B;
+	border-radius: 15px;
+	font-family: sans-serif;
+}		
+
+/*
+ * Cabeçalho da página
+ */
+header{
+	text-align: center;			
+}
+
+header h1{
+	background-color: #0B910B;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+header h2{
+	font-size: 12pt;
+}
+
+header a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: black;
+	font-style: italic;	
+	font-size: 10pt;		
+}
+
+header a:hover{
+	background-color: #0B910B;		
+}
+
+/*
+ * Artigo principal
+ */
+article h1{
+	background-color: #0B910B;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+article h2{
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+article p{
+	padding: 5px 10px;
+}
+
+/*
+ * Menu situado na parte inferior da página
+ */
+
+nav{
+	text-align: center;	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	padding: 15px 7px;
+	display: inline-block;
+	border-radius: 15px;
+}			
+
+nav ul li:hover{
+	background-color: #0B910B;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;			
+}
+
+.goCode{
+	text-align: right;
+	padding: 0 15px;
+	font-style: italic;
+}
+
+.goCode a{
+	text-decoration: none;
+	font-family: serif;
+	color: white;
+	background-color: #0B910B;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
+.meio{
+	position: relative;
+}
+
+.coluna1{
+	max-width: 75%;
+	position: absolute;
+}
+
+.coluna2{
+	max-width: 22%;
+	position: absolute;
+	right: 0;
+}
+
+.prompt{
+	max-width: 80%;
+	margin: 0 auto;
+	background-color: #7F7F7F;
+	border: 3px solid black;
+	border-radius: 8px;
+	position: relative;
+}
+
+code{
+	margin-top: 25px;
+	font-family: monospace;
+}
+.inicio{
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	font-size: 11pt;
+	position: absolute;
+	/*padding: 2px;*/
+}
+
+.final{
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	font-size: 11pt;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 2px;
+}
+
+.exemploStatic{
+	position: static;
+	background-color: #8ABA8A;
+	border: 3px solid #097809;
+	margin-top: 10px;
+}
+
+.exemploRelative1{
+	position: relative;
+	background-color: #8ABA8A;
+	border: 3px solid #097809;
+	margin-top: 10px;
+}
+
+.exemploRelative2{
+	position: relative;
+	top: -20px;
+	left: 20px;
+	background-color: white;
+	width: 500px;
+	border: 3px solid #E362D2;
+}
+
+.exemploInicio{
+	background-color: #097809;
+	position: absolute;
+}
+
+.exemploInicioRelative2{
+	background-color: #E362D2;
+	position: absolute;
+}
+
+.exemploFinal{
+	background-color: #097809;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.exemploFixed{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 108px;
+	height: 108px;
+	border: 2px solid #11BD11;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #11BD11;
+	padding: 2px;
+}
+
+.exemploFixed img{
+	width: 100px;
+	height: 105px;
+}
+
+.alturaDoRelative{
+	height: 300px;
+	width: 60%;
+}
+.exemploAbsolute{
+	position: absolute;
+	background-color: #E0BD7D;
+	border: 3px solid #FFD000;
+	border-radius: 10px;
+	right: 20px;
+	height: 60px;
+	width: 250px;
+	padding: 10px;
+}

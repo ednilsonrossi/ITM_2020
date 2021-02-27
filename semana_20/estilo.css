@@ -1,0 +1,37 @@
+nav a {
+	color: #149722;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 15pt;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #42BA00;
+	color: white;
+	text-decoration: underline;
+	
+}
+
+nav a:active {
+	background-color: #149722;
+}
+
+section#topo ul {
+	list-style-type: none;
+}
+
+section#topo li{
+	padding: 20px;
+	display: inline-block;
+}
+
+#banner {
+	width: 850px;
+}
+
+body {
+	width: 850px;
+	margin: 0 auto;
+}

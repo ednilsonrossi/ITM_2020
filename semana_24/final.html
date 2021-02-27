@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Animação com CSS</title>
+		<meta charset="UTF-8" />
+		<style>
+			@keyframes example {
+			    0%   {background-color: blue;}
+			    5%   {left: 5px;}
+			    7%   {transform: rotate(20deg);}
+			    50%  {background-color: pink;left: 500px;}
+			    75% 	{transform: rotate(-20deg); }
+			    85%  {transform: rotate(180deg);}
+			    100% {background-color: green;left: 0px;}
+			}		
+		
+			div{
+				border-radius: 10px;
+				border: solid 2px black;
+				width: 60px;			
+				
+				text-align: center;
+				font-weight: bold;
+				background-color: green;
+				color: white;
+				position: relative;
+				
+				animation-name: example;
+    			animation-duration: 6s;
+    			animation-iteration-count: infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<p>I T M</p>		
+		</div>			
+	</body>
+</html>

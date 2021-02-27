@@ -1,0 +1,39 @@
+/*Exemplo aplicado as listas*/
+/*
+ul{
+	list-style-image: url("icone.png");
+	list-style-position: outside;
+}
+
+ol{
+	background-color: #149722;
+}
+
+ol li{
+	background-color: #42BA00;
+	line-height: 35px;
+}
+*/
+
+/*Exemplo aplicado aos links*/
+ul{
+	list-style-type: none;
+}
+
+a:link{
+	color: #149722;
+	text-decoration: none;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	/*background-color: #42BA00;*/
+	text-decoration: underline;
+}
+
+a:active{
+	background-color: #42BA00;
+}

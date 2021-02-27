@@ -1,0 +1,116 @@
+
+body{
+	width: 850px;
+	margin: 0 auto;
+}
+
+#banner{
+	width: 800px;
+}
+
+#topo{
+	background-color: #002C08;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+section#topo h1{
+	font-size: 40pt;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+}
+
+section#topo ul{
+	list-style-type: none;
+}
+
+section#topo ul li{
+	display: inline-block;
+	font-family: serif;
+	font-size: 15pt;
+	padding: 10px;
+}
+
+section#topo a{
+	text-decoration: none;
+	background-color: #008000;
+	color: #002C08;
+	font-weight: bold;
+}
+
+section#topo a:hover{
+	color: white;
+	background-color: #002C08;
+}
+
+section#conteudo{
+	background-color: #008000;
+	font-family: Helvetica;
+	text-align: justify;
+	border-style: solid;
+}
+
+section#conteudo h1, h2{
+	background-color: #002C08;
+	color: white;
+}
+
+section#conteudo dl{
+	width: 700px;
+}
+
+section#conteudo dl dt{
+	font-weight: bold;
+	background-color: #002C08;
+	color: white;
+	
+}
+
+aside ol{
+	width: 700px;
+	background-color: #002C08;
+	color: white;
+	padding: 20px;
+}
+
+aside ol li{
+	background-color: #008000;
+	margin: 5px;
+}
+
+aside a{
+	text-decoration: none;
+	color: black;
+	font-family: courier;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+aside a:hover{
+	color: white;
+}
+
+footer{
+	text-align: center;
+	font-family: serif;
+	font-size: 13pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

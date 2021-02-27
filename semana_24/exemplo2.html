@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Animação com CSS</title>
+		<meta charset="UTF-8" />
+		<style>
+			@keyframes example {
+			    from {background-color: red;}
+			    to {background-color: yellow;}
+			}
+			
+			div{
+				border-radius: 10px;
+				border: solid 2px black;
+				width: 100px;			
+				
+				text-align: center;
+				font-weight: bold;
+				background-color: orange;
+				color: white;
+				position: relative;
+				
+				animation-name: example;
+    			animation-duration: 5s;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<p>Sou um DIV</p>		
+		</div>			
+	</body>
+</html>

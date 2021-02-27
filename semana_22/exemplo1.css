@@ -1,0 +1,17 @@
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.conteudo{
+	display: none;
+	position: absolute;
+}
+
+.dropdown:hover .conteudo{
+	display: block;
+}
+
+.legenda{
+	text-align: center;
+}
